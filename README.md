@@ -13,10 +13,18 @@
 
 ![image](https://github.com/Hoangnt1209/DPL302m-Group6/assets/90507871/4075b786-89a2-4840-8270-af1aa8c4fafe)
 
-# Datasets
+# Datasets (cnn_dailymail)
+
+- Train: 287,113
+- Validation: 13,368
+- Test: 11,490
 
 # Installation
 1. Clone the repository.
+```sh
 git clone https://github.com/Hoangnt1209/DPL302m-Group6.git
+```
 2. Install requirements.
+```sh
 pip install -r requirements.txt
+```
