@@ -13,7 +13,7 @@
 
 ![image](https://github.com/Hoangnt1209/DPL302m-Group6/assets/90507871/4075b786-89a2-4840-8270-af1aa8c4fafe)
 
-# WEB flow
+# Webflow
 
 ![image](https://github.com/Hoangnt1209/DPL302m-Group6/assets/90507871/4cbb60c2-333c-403f-a574-8e103313603c)
 
