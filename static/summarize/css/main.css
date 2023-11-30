@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url('../images/hero.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.gradient-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0.6;
+    background: linear-gradient(-45deg, #e035a0 50%, #714ac7 100%);
+    z-index: -1;
+}
+
+.summarize {
+    background-color: white;
+    border-radius: 10px;
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.col-left {
+    padding: 20px 5px 20px 30px;
+}
+
+.col-right {
+    padding: 20px 30px 20px 5px;
+}
+
+@media only screen and (max-device-width: 768px) {
+    .col-left {
+        padding: 20px 30px 10px 30px;
+    }
+
+    .col-right {
+        padding: 10px 30px 20px 30px;
+    }
+}
+
+textarea {
+    margin-top: 10px;
+}
+
+.btn-upload {
+    margin-right: 5px;
+}

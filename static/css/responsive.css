@@ -1,0 +1,174 @@
+/*
+   Olio Theme Responsive Design
+*/
+
+@media (max-width: 1170px) {
+    .swiper-container{
+        width: 70%;
+    }
+    .download-mockup{
+        right: -250px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .hero-moc{
+        right: -8px;
+    }
+    .hero-section{
+        height: 650px;
+    }
+    h1{
+        font-size: 36px;
+    }
+}
+
+/* ---- Start of max-width 992px CSS ---- */
+@media (max-width: 992px) {
+    .sm-padding{ padding: 15px; }
+    .feature_list,
+    .about_content {
+        padding: 0;
+    } 
+    .hero_mockup{
+        background-position: 120% center;
+    }
+    .hero-section:before{
+        top: -308px;
+    }
+    ul.nav > li > a {
+        padding: 0 5px;
+        font-size: 10px;
+    }
+    .hero-moc{
+        display: none;
+    }
+    .swiper-container{
+        width: 260px;
+    }
+    .swiper-container .swiper-slide{ text-align: center; }
+    .swiper-container .swiper-slide img,
+    .swiper-container .swiper-slide-active img{ width: 80%!important; }
+    .swiper-container .swiper-next, 
+    .swiper-container .swiper-prev{ display: none; }
+    .content-info{
+        padding-bottom: 65px;
+        padding-top: 0;
+    }
+    .download-mockup{
+        display: none;
+    }
+    .download-btn a{
+        margin: 0 5px;
+    }
+    .download-content h2{
+        font-size: 24px;
+    }
+    .download-content{
+        padding: 0;
+    }
+    .hero-section{
+        height: 570px;
+    }
+
+}
+/* ---- End of max-width 992px CSS ---- */
+
+
+/* ---- Start of min-width 480px and max-width 768px CSS ---- */
+@media all and (min-width: 480px) and (max-width: 768px) {
+	
+}
+/* ---- End of min-width 480px and max-width 768px CSS ---- */
+
+
+/* ---- Start of max-width 767px CSS ---- */
+@media all and (max-width: 767px) {
+    body, p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    h1{
+        font-size: 30px!important;
+    }
+    h2{
+        font-size: 24px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .play-btn:before,
+    .mock-hide,
+    p br{
+        display: none;
+    }
+    .padding{
+        padding: 70px 0;
+    }
+    .promo-section{ padding-top: 0; }
+    .xs-padding{
+    	padding: 15px;
+    }
+    .section-heading h2{
+        font-size: 30px;
+    }
+    .section-heading p{
+        font-size: 16px;
+    }
+    .navbar-brand{
+        padding: 20px 0;
+    }
+    .menu-btn,
+    .menu-wrap ul.nav{
+        display: none;
+    }
+    .slicknav_menu {
+        display:block;
+    }
+    .hero-inner{
+        padding-top: 50px;
+    }
+    .play-btn {
+        left: calc(50% - 30px);
+        top: calc(50% - 30px);
+    }
+    .content-info{
+        padding-bottom: 0;
+    }
+    .download-content{
+        text-align: center;
+    }
+}
+/* ---- End of max-width 767px CSS ---- */
+
+
+/* ---- Start of max-width 520px CSS ---- */
+@media all and (max-width: 520px) {
+    .hero-section{
+        height: 460px;
+    }
+    .hero-content p{ font-size: 16px; }
+    .subscribe-form{ width: 100%; }
+    .download-content h2{
+        font-size: 30px;
+    }
+    .download-content p{ margin-bottom: 25px; }
+    .download-btn a:first-child{
+        margin-bottom: 10px;
+    }
+}
+/* ---- End of max-width 520px CSS ---- */
+
+
+/* ---- Start of max-width 420px CSS ---- */
+@media all and (max-width: 420px) {
+    
+}
+/* ---- End of max-width 420px CSS ---- */
+
+
+/* ---- Start of max-width 380px CSS ---- */
+@media all and (max-width: 380px) {
+	
+}
+/* ---- End of max-width 380px CSS ---- */
