@@ -43,7 +43,7 @@
 # Installation
 1. Clone the repository.
 ```sh
-git clone https://github.com/Hoangnt1209/DPL302m-Group6.git
+git clone https://github.com/tptrung98/Text_Summarizer.git
 ```
 2. Install requirements.
 ```sh
